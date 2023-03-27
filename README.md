@@ -1,13 +1,9 @@
 # Dash
 
----
+Dash is an iOS app that provides a dashboard of motion and location data available on iOS devices. The app offers a single-page dashboard that covers each each data point. Dash was created by Brock Davis (brocknathandavis@gmail.com).
 
-Dash is an iOS app that provides a dashboard of motion and location data available on iOS devices. The app offers a single-page dashboard that covers each each data point.
-
-<img alt="Dash Screenshot 1" src="assets/screenshot1.png" width="262" height="568"/>
-<img alt="Dash Screenshot 2" src="assets/screenshot2.png" width="262" height="568"/>
-
----
+<img alt="Dash Screenshot 1" src="https://brockthecoderwebsite.s3.amazonaws.com/dash/assets/screenshot1.png" width="262" height="568"/>
+<img alt="Dash Screenshot 2" src="https://brockthecoderwebsite.s3.amazonaws.com/dash/assets/screenshot2.png" width="262" height="568"/>
 
 ## Features
 
@@ -17,14 +13,10 @@ Dash is an iOS app that provides a dashboard of motion and location data availab
 
 ## Usage Prerequisites
 
----
-
 * Xcode
 * An Apple Developer account (for running on a physical device)
 
 ## Cloning the Repo
-
----
 
 1. Open Terminal on your Mac.
 2. Navigate to the directory where you want to clone the repository.
@@ -39,8 +31,6 @@ git clone https://github.com/brockthecoder/dash.git
 
 ## Testing
 
----
-
 To test the Dash app, you will need to run it on a real iOS device, as the iOS simulator does not provide motion data and provides fixed location data.
 
 1. Connect your iOS device to your Mac.
@@ -51,7 +41,5 @@ Please note that you may need to configure code signing with your Apple Develope
 
 
 ## License
-
----
 
 Dash is licensed under the [GNU General Public License v3.0](LICENSE). See the [LICENSE](LICENSE) file for more information.
