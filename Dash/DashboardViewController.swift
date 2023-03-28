@@ -482,7 +482,7 @@ class DashboardViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         self.locationView.addSubview(self.latitudeLabel) {
-            $0.attributedText = NSAttributedString(string: "Lattitude: ", attributes: Configurations.headerTextAttributes)
+            $0.attributedText = NSAttributedString(string: "Latitude: ", attributes: Configurations.headerTextAttributes)
             $0.translatesAutoresizingMaskIntoConstraints = false
             NSLayoutConstraint.activate([
                 $0.leadingAnchor.constraint(equalTo: self.locationView.leadingAnchor, constant: Configurations.headerLeadingConstant),
