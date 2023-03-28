@@ -672,6 +672,7 @@ class DashboardViewController: UIViewController, CLLocationManagerDelegate {
         
         // Set up motion updates
         if !self.motionManager.isDeviceMotionActive, self.motionManager.isDeviceMotionAvailable {
+            self.motionManager.showsDeviceMovementDisplay = true
             self.motionManager.deviceMotionUpdateInterval = 1.0 / 30.0
             let refFrame: CMAttitudeReferenceFrame
             if CMMotionManager.availableAttitudeReferenceFrames().contains(CMAttitudeReferenceFrame.xTrueNorthZVertical) {
