@@ -648,9 +648,7 @@ class DashboardViewController: UIViewController, CLLocationManagerDelegate {
         self.locationManager.delegate = self
         self.locationManager.pausesLocationUpdatesAutomatically = false
         self.locationManager.distanceFilter = kCLDistanceFilterNone
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-      
-        
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
     
     @objc private func handleStartLocationButtonTap() {
